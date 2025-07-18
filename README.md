@@ -63,6 +63,14 @@ We hope this repository serves as a useful tool to enhance your C# programming s
          - An alphanumeric resource identifier should be valid.
          - The code must be compliant with the C# Naming Conventions, Programming Best Practices, and REST API Best Practices.
          - A minimum of 70% Code Coverage.
+       
+   - [ ] **USR-2:** As a TC client, I want to be able to create Organizations and assign users to those organizations using POST requests; these requests will have the following information:
+   - Organization Name: Alphanumeric string up to 100 characters.
+   - List of users in the organization: Same information returned by the Users API.
+      - Acceptance criteria:
+         - Organizations must be identified by a unique numeric identifier in TC's system.
+         - Each organization can have zero, one, or more users in the payload request.
+         - A user can belong to zero, one, or more organizations.
    
 7. When you complete an exercise, please submit a pull request so that we can review your changes and give you any feedback.
 
