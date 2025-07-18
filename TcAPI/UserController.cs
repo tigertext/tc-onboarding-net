@@ -20,17 +20,19 @@ public class UserController : ControllerBase
             // Bad practice: Not using meaningful variable names
             var u = new
             {
-                id = 123,
+                id = 987652,
+                external_id = "abc-123",
                 user_name = "john_doe",
-                email_address = "john@example.com",
+                email_address = "john_doe@example.com",
                 is_active = true,
                 created_date = "2023-01-01" // Bad practice: string instead of DateTime
             };
             var u2 = new
             {
-                id = 456,
-                user_name = "john_doe",
-                email_address = "john@example.com",
+                id = 682378,
+                external_id = "abc-456",
+                user_name = "maria_schz",
+                email_address = "maria_schz@example.com",
                 is_active = true,
                 created_date = "2023-01-01" // Bad practice: string instead of DateTime
             };
