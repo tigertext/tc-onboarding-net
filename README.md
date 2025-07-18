@@ -47,9 +47,18 @@ We hope this repository serves as a useful tool to enhance your C# programming s
 2. Using your TigerConnect GitHub account, create a new private repository (your username will be the owner) and share this private repo with your team.
 3. You have to copy the project you just downloaded to your personal repository. Please version all the same files and do not forget to add the hidden files (for example, the .gitignore file).
 4. Create a branch with a descriptive name for your coding exercise.
-5. Work the corresponding coding exercise in your branch, follow the next instructions:
-    1. TODO
-6. When you complete an exercise, please submit a pull request so that we can review your changes and give you any feedback.
+5. Work the corresponding coding exercise in your branch, follow the next instructions:\
+   **Context:** TigerConnect(TC) is developing a RESTful API to support Create and Read operations on three primary business entities: Users, Organizations, and Roles. Currently, our Users API only supports GET Users. You are required to implement the following tickets:\
+   **USR-1:** As a TC client, I want to be able to query the TC's account information linked to a user identified by a non-empty alphanumeric string in our User Directory provider and not by using the TC's ID\
+   - Bug: The client is getting a Format Exception when requesting a user account by its external user ID\
+   - Enhancement: Implement a practical but efficient way to return the actual static data instead of the current response while keeping the business rules for filtering results based on the internal ID.
+   - Bonus: Improve the Users API contract where responses are mapped to JSON strings instead of plain text.
+   - Acceptance criteria:\
+     -- When the resource does not exist in TC, then the client should receive a Not Found response.
+     -- When the resource exists, the client should receive a Success response with the corresponding user information.
+     -- An alphanumeric resource identifier should be valid.
+   
+7. When you complete an exercise, please submit a pull request so that we can review your changes and give you any feedback.
 
 Let's embark on your journey to write more solid and clean code at Tiger Connect! Explore the sample code, experiment, and feel free to share your learnings and accomplishments in the repository. Together, we can improve our skills and create higher quality software.
 
