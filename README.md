@@ -49,7 +49,7 @@ We hope this repository serves as a useful tool to enhance your C# programming s
 2. Using your TigerConnect GitHub account, create a new private repository (your username will be the owner) and share this private repo with your team.
 3. You have to copy the project you just downloaded to your personal repository. Please version all the same files and do not forget to add the hidden files (for example, the .gitignore file).
 4. Create a branch with a descriptive name for your coding exercise.
-5. Work the corresponding coding exercise in your branch, follow the next instructions:\
+5. Work the corresponding coding exercise in your branch, follow the next instructions, and don't hesitate to reach out to your body to ask questions:\
    **Context:** TigerConnect(TC) is developing a RESTful API to support Create and Read operations on three primary business entities: Users, Organizations, and Roles. Currently, our Users API only supports GET Users.\
    You are required to implement the following tickets:
    
@@ -64,7 +64,7 @@ We hope this repository serves as a useful tool to enhance your C# programming s
          - The code must be compliant with the C# Naming Conventions, Programming Best Practices, and REST API Best Practices.
          - A minimum of 70% Code Coverage.
        
-   - [ ] **USR-2:** As a TC client, I want to be able to create Organizations and assign users to those organizations using POST requests; these requests will have the following information:
+   - [ ] **ORG-1:** As a TC client, I want to be able to create Organizations and assign users to those organizations using POST requests; these requests will have the following information:
    - Organization Name: Alphanumeric string up to 100 characters.
    - List of users in the organization: Same information returned by the Users API.
       - Acceptance criteria:
